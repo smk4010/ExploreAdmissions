@@ -1,0 +1,18 @@
+{
+  "name": "explorepennDEV",
+  "version": "1.0.0",
+  "description": "Explore Penn Boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-session": "*",
+    "pug": "^2.0.0-beta6"
+  }
+}
