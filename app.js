@@ -3,8 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const session = require('express-session');
 
-// Port
-const port = 3000;
+
 
 // init app
 const app = express();
@@ -27,6 +26,4 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 
 //Port ENV
-app.listen(port, () => {
-  console.log('Server started on port '+port);
-});
+app.listen(process.env.PORT || 5000)
