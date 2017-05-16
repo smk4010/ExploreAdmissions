@@ -192,10 +192,6 @@ input[type="checkbox"] + label:before {
 	float: left;
 	margin: -3px 10px 0px 0;
 }
-input[type="checkbox"]:checked + label:before {
-	background: #092B73 url('images/check-white.svg') no-repeat center center;
-	background-size: 70%;
-}
 a,
 input,
 textarea {
