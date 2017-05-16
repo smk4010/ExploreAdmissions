@@ -369,8 +369,16 @@ a.checkbox strong {
 }
 
 /* Section Variables */
-.title-penn, .title-academics, .title-financial-aid {
-  background-image: url('https://prismic-io.s3.amazonaws.com/ncsdo/a5c3f8eefd9ec2b53a95e257350ba450b073e904_proudly-penn.jpg');
+.title-penn {
+  background-image: url('../img/proudly.jpg');
+  background-size: cover;
+}
+.title-academics {
+  background-image: url('../img/academics.jpg');
+  background-size: cover;
+}
+.title-financial-aid {
+  background-image: url('../img/financial-aid.jpg');
   background-size: cover;
 }
 .title-penn, .title-academics, .title-financial-aid h2 {
@@ -501,7 +509,7 @@ section.callout {
 }
 .school-img {
     margin: 0px auto;
-    max-width: 60%;
+    max-width: 40%;
     display: block;
     padding-bottom: 40px;
 }
