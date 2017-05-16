@@ -1,4 +1,5 @@
 const express = require('express');
+const compression = require('compression');
 const path = require('path');
 const bodyParser = require('body-parser');
 const session = require('express-session');
@@ -7,6 +8,9 @@ const session = require('express-session');
 
 // init app
 const app = express();
+
+//compression
+app.use(compression());
 
 //Routes
 const index = require('./routes/index');
