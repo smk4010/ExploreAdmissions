@@ -536,7 +536,7 @@ footer {
 }
 .footer-img {
   max-width: 20%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 footer .fa {
   font-size: 30px;
@@ -647,7 +647,7 @@ footer .phone {
 	.school-menu ul li {
 		display: inline-block;
 		float: left;
-		width: 46%;
+		width: 26%;
 		margin-left: 2%;
 		margin-right: 2%;
 	}
