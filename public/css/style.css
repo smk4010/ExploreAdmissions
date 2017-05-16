@@ -522,6 +522,10 @@ section.callout {
     width: 30%;
     margin: 0px auto;
 }
+#explore-cta a.button:hover {
+    color: #00acdc;
+		text-decoration: none;
+}
 
 /* FOOTER */
 footer {
