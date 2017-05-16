@@ -63,7 +63,7 @@ $( document ).ready(function() {
           $('#academics > article:not(' + articleId + ')').addClass('hidden');
           $( articleId ).removeClass('hidden');
           $('.school-menu a:not([href="' + articleId + '"])').removeClass('hidden')
-          $('.school-menu a[href="' + articleId + '"]').addClass('hidden');
+          $('.school-menu a[href="' + articleId + '"]').addClass('hidden', 1000, 'linear');
 
         }
 
