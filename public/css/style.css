@@ -497,6 +497,7 @@ section.callout {
 	background: #fff;
 	box-shadow: 0 5px 0 rgba(0,0,0,.4);
 	color: #00acdc;
+	text-decoration: none;
 }
 .school-img {
     margin: 0px auto;
