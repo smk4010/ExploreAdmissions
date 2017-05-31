@@ -773,6 +773,9 @@ footer .phone {
 		display: block;
 		clear: both;
 	}
+	.mobile-h {
+	    font-size: .9em;
+	}
 
 }
 
@@ -793,6 +796,9 @@ footer .phone {
 	article h3 {
 		font-size: 32px;
 		line-height: 1.2;
+	}
+	.mobile-h {
+	    font-size: .9em;
 	}
 
 }
