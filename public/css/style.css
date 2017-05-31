@@ -360,6 +360,10 @@ a.checkbox strong {
 	display: block;
 }
 
+#form_135ec47d-db37-4417-9731-f9b1245ffca2 {
+    display: none;
+}
+
 /* Penn Divider Stripes */
 #slate-form:after, #proudly-penn:after, #academics:after, #explore-cta:after {
 	content: '';
