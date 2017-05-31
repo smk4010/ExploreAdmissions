@@ -363,6 +363,22 @@ a.checkbox strong {
 #form_135ec47d-db37-4417-9731-f9b1245ffca2 {
     display: none;
 }
+button.default {
+    color: #00acdc;
+    text-decoration: none;
+    background: #fff;
+    width: 25%;
+    margin: 0px auto;
+    display: block;
+    padding: 10px 15px;
+}
+.form-container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#form_fa8f172b-7fbf-4be8-a660-ca064bf06dc6 {
+    margin-left: 10px;
+}
 
 /* Penn Divider Stripes */
 #slate-form:after, #proudly-penn:after, #academics:after, #explore-cta:after {
