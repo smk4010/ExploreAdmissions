@@ -778,6 +778,44 @@ footer .phone {
 		display: block;
 		clear: both;
 	}
+
+	.navbar-brand>img {
+	    max-width: 150px;
+	    margin-top: -15px;
+	}
+	.navbar-toggle {
+	    margin-right: 50px;
+	}
+	#slate-form {
+	    margin-top: 90px;
+	}
+	#slate-form h2 {
+	    font-size: 22px;
+	    line-height: .9;
+	    margin-top: 15%;
+	}
+	#slate-form h5 {
+	    margin-bottom: 5%;
+	    font-size: 14px;
+	    margin-bottom: 15%;
+	}
+
+	#slate-form:after, #proudly-penn:after, #academics:after, #explore-cta:after {
+	    height: 20px;
+	}
+	article > .info-box p {
+	    padding: 8px 5%;
+	}
+	#proudly-penn h2 {
+	    padding-bottom: 20px;
+	    padding-top: 170px;
+	}
+	h3, .h3 {
+	    font-size: 14px;
+	}
+	p {
+	    font-size: 10px;
+	}
 }
 
 @media screen and (min-width: 992px) {
