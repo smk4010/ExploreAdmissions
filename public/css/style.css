@@ -590,59 +590,7 @@ footer .phone {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1200px) {
-
-	article section:first-of-type {
-		margin-top: 60px;
-	}
-	article section.callout {
-		float: right;
-		clear: right;
-		width: 32%;
-	}
-	.columns section,
-	.columns section:first-child,
-	.columns section:nth-child(2n) {
-		width: 32%;
-		margin-right: 2%;
-		float: left;
-	}
-	.columns section:nth-child(3n) {
-		margin-right: 0;
-	}
-.invalid input:required:invalid {
-    background: #BE4C54;
-}
-.invalid input:required:valid {
-    background: #17D654 ;
-}
-input {
-  display: block;
-  margin-bottom: 10px;
-}
-}
-
-@media screen and (max-width: 992px) {
-
-	form {
-		width: 90%;
-		margin: 0 auto;
-		max-width: 640px;
-	}
-	.slate-form form > div {
-		padding: 0;
-	}
-	.title-penn, .title-academics, .title-financial-aid h2 {
-		padding-top: 45%;
-    padding-bottom: 5%;
-	}
-	article h3 {
-		font-size: 32px;
-		line-height: 1.2;
-	}
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
 	h2 {
 		font-size: 64px;
@@ -830,42 +778,57 @@ input {
 		display: block;
 		clear: both;
 	}
+	
+}
 
-	.navbar-brand>img {
-	    max-width: 150px;
-	    margin-top: -15px;
-	}
-	.navbar-toggle {
-	    margin-right: 50px;
-	}
-	#slate-form {
-	    margin-top: 90px;
-	}
-	#slate-form h2 {
-	    font-size: 22px;
-	    line-height: .9;
-	    margin-top: 15%;
-	}
-	#slate-form h5 {
-	    margin-bottom: 5%;
-	    font-size: 14px;
-	    margin-bottom: 15%;
-	}
+@media screen and (min-width: 992px) {
 
-	#slate-form:after, #proudly-penn:after, #academics:after, #explore-cta:after {
-	    height: 20px;
+	form {
+		width: 90%;
+		margin: 0 auto;
+		max-width: 640px;
 	}
-	article > .info-box p {
-	    padding: 8px 5%;
+	.slate-form form > div {
+		padding: 0;
 	}
-	#proudly-penn h2 {
-	    padding-bottom: 20px;
-	    padding-top: 170px;
+	.title-penn, .title-academics, .title-financial-aid h2 {
+		padding-top: 45%;
+    padding-bottom: 5%;
 	}
-	h3, .h3 {
-	    font-size: 14px;
+	article h3 {
+		font-size: 32px;
+		line-height: 1.2;
 	}
-	p {
-	    font-size: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+
+	article section:first-of-type {
+		margin-top: 60px;
 	}
+	article section.callout {
+		float: right;
+		clear: right;
+		width: 32%;
+	}
+	.columns section,
+	.columns section:first-child,
+	.columns section:nth-child(2n) {
+		width: 32%;
+		margin-right: 2%;
+		float: left;
+	}
+	.columns section:nth-child(3n) {
+		margin-right: 0;
+	}
+}
+.invalid input:required:invalid {
+    background: #BE4C54;
+}
+.invalid input:required:valid {
+    background: #17D654 ;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
 }
