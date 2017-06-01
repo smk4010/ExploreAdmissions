@@ -839,4 +839,57 @@ footer .phone {
 	#slate-form h5 {
     margin-bottom: 9%;
 	}
+	button.default {
+    width: 35%;
+	}
+	.title-penn, .title-academics, .title-financial-aid h2 {
+    padding-top: 200px;
+    padding-bottom: 20px;
+	}
+	#slate-form:after, #proudly-penn:after, #academics:after, #explore-cta:after
+	{
+    height: 25px;
+	}
+	article > .info-box p {
+    font-size: 10px;
+    padding: 10px 5%;
+	}
+	h3, .h3 {
+    font-size: 18px;
+	}
+	body {
+    font-size: 12px;
+	}
+	.school-img {
+    max-width: 70%;
+    padding-bottom: 0px;
+    padding-top: 10px;
+	}
+	.school-menu h3 {
+    font-size: 14px;
+	}
+	.title-financial-aid {
+    margin-bottom: 20px;
+	}
+	#explore-cta h2 {
+    font-size: 22px;
+		padding-bottom: 5%;
+	}
+	#explore-cta a.button {
+    padding: 10px 10px;
+    font-size: 12px;
+	}
+	footer a {
+    font-size: 10px;
+	}
+	footer .fa {
+	  font-size: 20px;
+	  padding-right: 5px;
+	  padding-left: 15px;
+	}
+	.footer-img {
+    max-width: 40%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+	}
 }
