@@ -878,6 +878,7 @@ footer .phone {
 	#explore-cta a.button {
     padding: 10px 10px;
     font-size: 12px;
+		width: 70%;
 	}
 	footer a {
     font-size: 10px;
