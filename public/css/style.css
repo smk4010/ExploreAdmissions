@@ -773,9 +773,6 @@ footer .phone {
 		display: block;
 		clear: both;
 	}
-	.mobile-h {
-	    font-size: .9em;
-	}
 }
 
 @media screen and (min-width: 992px) {
