@@ -825,3 +825,27 @@ footer .phone {
 	}
 
 }
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	#slate-form {
+	    margin-top: 90px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    border: none;
+	}
+	#slate-form h2 {
+    font-size: 28px;
+	}
+	#slate-form h5 {
+    margin-bottom: 9%;
+	}
+}
