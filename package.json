@@ -11,9 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "*",
+    "compression": "*",
     "express": "*",
     "express-session": "*",
-    "pug": "^2.0.0-beta6",
-    "compression": "*"
+    "helmet": "^3.6.1",
+    "pug": "^2.0.0-beta6"
   }
 }

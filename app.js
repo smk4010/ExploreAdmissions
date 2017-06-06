@@ -9,6 +9,9 @@ const session = require('express-session');
 // init app
 const app = express();
 
+//Helmet Sec Middleware
+app.use(helmet())
+
 //compression
 app.use(compression());
 
