@@ -28,8 +28,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Set static folder
-const cacheTime = 86400000*7;
-app.use(express.static(path.join(__dirname, 'public', {maxAge: "7d"})));
+app.use(express.static(path.join(__dirname, 'public'), {maxAge: "7d"}));
 
 //Use Routes
 app.use('/', index);
