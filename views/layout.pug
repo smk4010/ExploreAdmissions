@@ -24,8 +24,8 @@ html(lang='en')
               span.icon-bar
             |  
             a.navbar-brand(href='#')
-              img(src='/img/plogo.png')
-          #navbar.navbar-collapse.collapse
+              img(src='/img/plogo.png', alt='University of Pennsylvania Logo')
+          #navbar.navbar-collapse.collapse(title='Navigation')
             ul.nav.navbar-nav.navbar-right
               li
                 a(href='#proudly-penn') Proudly Penn
@@ -34,12 +34,12 @@ html(lang='en')
               li
                 a(href='#financial-aid') Financial Aid
     block content
-    footer
+    footer(title='Contact Info')
           .row
             .container
               .row
                 .col-md-12
-                  img.footer-img(src='/img/footer.png', alt='')
+                  img.footer-img(src='/img/footer.png', alt='University of Pennsylvania Logo')
                 .row.location
                   .col-md-12
                     i.fa.fa-building(aria-hidden='true')

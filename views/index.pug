@@ -2,7 +2,7 @@ extends layout
 
 block content
   main(role='main')
-  #slate-form
+  #slate-form(title='Connect with Penn Form')
     .row
       .container
         .col-md-12.col-sm-12
@@ -18,7 +18,7 @@ block content
           #form_3afc890c-8025-461a-9f8f-69198b830355 Loading...
           script.
             /*<![CDATA[*/var script = document.createElement('script'); script.async = 1; script.src = 'https://key.admissions.upenn.edu/register/?id=3afc890c-8025-461a-9f8f-69198b830355&output=embed&div=form_3afc890c-8025-461a-9f8f-69198b830355' + ((location.search.length > 1) ? '&' + location.search.substring(1) : ''); var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);/*]]>*/
-  #proudly-penn
+  #proudly-penn(title='Proudly Penn')
     .row.title-penn
       .col-md-12.col-sm-12
         h2.mobile-h PROUDLY PENN
@@ -41,11 +41,11 @@ block content
               h3 AT HOME IN PHILADELPHIA
               p
                 | Penn&rsquo;s compact, walkable campus is located in one of America&rsquo;s great college towns. A hub of culture and commerce with an energetic, entrepreneurial vibe, Philadelphia is one of Penn&rsquo;s greatest assets: an urban laboratory and an exciting place to call home.
-  #academics
+  #academics(title='Academics')
     .row.title-academics
       .col-md-12.col-sm-12
         h2 ACADEMICS
-    article#school-arts-sciences.row.content
+    article#school-arts-sciences.row.content(title='School of Arts and Sciences')
       .row.info-box
         .col-md-12.col-sm-12
           p 72 PERCENT OF COLLEGE COURSES HAVE 25 OR FEWER STUDENTS.
@@ -53,7 +53,7 @@ block content
         .col-md-12.col-sm-12
           .row
             section.col-md-12.col-sm-12
-              img.school-img(src='/img/sas.png', alt='')
+              img.school-img(src='/img/sas.png', alt='College of arts and sciences logo')
             section.col-md-12.col-sm-12
               h3 COLLEGE OF ARTS AND SCIENCES
               p
@@ -66,7 +66,7 @@ block content
               h3 YOUR FUTURE
               p
                 | Students in the College are prepared to offer the world creative solutions to problems. Equipped with an intellectually flexible education, students in the College are ready for success in an increasingly complex world. 90 percent of the Class of 2015 is employed or attending graduate school.
-    article#school-nursing.row.content
+    article#school-nursing.row.content(title='School of Nursing')
       .row.info-box
         .col-md-12.col-sm-12
           p
@@ -75,7 +75,7 @@ block content
         .col-md-12.col-sm-12
           .row
             section.col-md-12.col-sm-12
-              img.school-img(src='/img/nursing.png', alt='')
+              img.school-img(src='/img/nursing.png', alt='School of nursing logo')
             section.col-md-12.col-sm-12
               h3 SCHOOL OF NURSING
               p
@@ -88,7 +88,7 @@ block content
               h3 YOUR FUTURE
               p
                 | After completing the BSN course of study, 80 percent of Penn Nursing graduates pursue one of the School&apos;s 15 master&apos;s degree programs. Students can have close to 75 percent of their graduate degree tuition covered through joint funding from the University of Pennsylvania Health System and Penn Nursing.
-    article#school-wharton-business.row.content
+    article#school-wharton-business.row.content(title='Wharton School of Business')
       .row.info-box
         .col-md-12.col-sm-12
           p
@@ -97,7 +97,7 @@ block content
         .col-md-12.col-sm-12
           .row
             section.col-md-12.col-sm-12
-              img.school-img(src='/img/wharton.png', alt='')
+              img.school-img(src='/img/wharton.png', alt='Wharton school of business logo')
             section.col-md-12
               h3 THE WHARTON SCHOOL
               p
@@ -110,7 +110,7 @@ block content
               h3 YOUR FUTURE
               p
                 | A top ranked undergraduate business program, Wharton advances the world&rsquo;s economic and social well-being. Graduates join a global network of 94,000 alumni in 153 countries. Approximately two-thirds of graduates are able to advance their careers without returning to school to complete an MBA.
-    article#school-engineering.row.content
+    article#school-engineering.row.content(title='School of Engineering')
       .row.info-box
         .col-md-12.col-sm-12
           p
@@ -119,7 +119,7 @@ block content
         .col-md-12.col-sm-12
           .row
             section.col-md-12.col-sm-12
-              img.school-img(src='/img/seas.png', alt='')
+              img.school-img(src='/img/seas.png', alt='School of engineering logo')
             section.col-md-12.col-sm-12
               h3 PENN ENGINEERING
               p
@@ -145,7 +145,7 @@ block content
               a(href='#school-wharton-business') The Wharton School
             li.school-engineering
               a(href='#school-engineering') Penn Engineering
-  #financial-aid
+  #financial-aid(title='Financial Aid')
     .row.title-financial-aid
       .col-md-12.col-sm-12
         h2 FINANCIAL AID
@@ -162,7 +162,7 @@ block content
             section.col-md-12.col-sm-12
               h3 DISCOVER MORE
               p Visit our Costs and Financial Aid page for more information.
-  #explore-cta
+  #explore-cta(title='Explore Your Options')
     .row.title
       .container
         .col-md-12.col-sm-12
