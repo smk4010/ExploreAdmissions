@@ -27,6 +27,10 @@ app.set('view engine', 'pug');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// Set static folder
+const cacheTime = 86400000*7;
+app.use(express.static(path.join(__dirname, 'public')));
+
 //Use Routes
 app.use('/', index);
 
