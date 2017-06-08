@@ -27,17 +27,6 @@ app.set('view engine', 'pug');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// Set static folder
-app.use(express.static(path.join(__dirname, 'public')));
-
-// Set static cache methods
-app.use(function (req, res, next) {
-    if (req.url.match(/^\/(css|js|img|font)\/.+/)) {
-        res.setHeader('Cache-Control', 'public, max-age=3600'))
-    }
-    next();
-});
-
 //Use Routes
 app.use('/', index);
 
