@@ -28,7 +28,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Set static folder
-app.use(express.static(path.join(__dirname, 'public'), {maxAge: "7d"}));
+app.use(express.static(path.join(__dirname, 'public'), {maxAge: "30d"}));
+
+//Set Headers for HTML serve
+app.use(function(req, res, next) {
+  res.setHeader('maxAge', '30d')
+  next();
+});
 
 //Use Routes
 app.use('/', index);
