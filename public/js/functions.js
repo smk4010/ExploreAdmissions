@@ -52,6 +52,15 @@ $( document ).ready(function() {
           return(false);
         }
 
+      //Hide Form at load
+        $('#slate-form').hide();
+        $( window ).load(function() {
+
+		  // Reveal form
+  		$('#slate-form').delay(600).slideDown(1000);
+
+  	   });
+
         // TOGGLE ACADEMICS ARTICLES WITH HIDDEN CLASS
 
         function chooseComponent(articleId) {
