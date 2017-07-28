@@ -222,6 +222,13 @@ select {
 }
 
 /* FORMS */
+
+#form_934dab55-b4ec-4fe5-9857-e416611577bb input[type='checkbox'] + label {
+    padding: 7px !important;
+}
+#form_934dab55-b4ec-4fe5-9857-e416611577bb input[type='checkbox']:checked + label {
+    background-color: #eaeaea !important;
+}
 #slate-form {
     margin-top: 50px;
 }
